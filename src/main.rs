@@ -26,7 +26,7 @@ fn prepare_map() -> HashMap<Kind, (&'static str, Vec<&'static str>, Vec<&'static
         Kind::Article,
         (
             "article",
-            vec!["author", "title", "journal year"],
+            vec!["author", "title", "year"],
             vec!["volume", "number", "pages", "month", "note"]
         )
     );
